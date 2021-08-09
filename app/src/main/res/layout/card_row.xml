@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/audioCard"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        card_view:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardBackgroundColor="@android:color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground">
+            <!-- Card items !-->
+            <!-- Test item !-->
+            <TextView
+                android:id="@+id/audioNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
