@@ -1,3 +1,3 @@
-# Horrorboard
+# Yama's Bullshit Board
 
-Dies ist das Horrorboard von CF! in Androidform
+All so den Bullshit den man im Netz finden kann, nur eben als Soundboard
